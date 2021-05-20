@@ -24,7 +24,7 @@ While you can use the **Notebooks** page in Azure Machine Learning studio to run
 The Azure Machine Learning SDK is installed by default on your compute instance. Follow these steps to verify the installation.
 
 1. In the Jupyter notebook environment, create a new **Terminal**. This will open a new tab with a command shell.
-2. Enter the following command to update the Azure ML SDK:
+2. Enter the following command to verify that the Azure ML SDK is installed:
 
     ```bash
     pip show azureml-sdk
