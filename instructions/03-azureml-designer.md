@@ -57,7 +57,7 @@ Now that you have some compute resources that you can use to run a training pipe
 To get started with designer, first you must create a pipeline and add the dataset you want to work with.
 
 1. In Azure Machine Learning studio, view the **Designer** page and create a new pipeline.
-2. In the **Settings** pane, change the default pipeline name (**Pipeline-Created-on-*date***) to **Visual Diabetes Training** (if the **Settings** pane is not visible, click the **&#9881;** icon next to the pipeline name at the top).
+2. Change the default pipeline name (**Pipeline-Created-on-*date***) to **Visual Diabetes Training** By clicking on the default name (or click the **&#9881;** icon next to the pipeline name and change from there)
 3. Note that you need to specify a compute target on which to run the pipeline. In the **Settings** pane, click **Select compute target** and select your compute cluster.
 4. On the left side of the designer, expand the **Datasets** section, and drag the **diabetes dataset** dataset onto the canvas.
 5. Select the **diabetes dataset** module on the canvas. Then right-click it, and on the **Visualize** menu, select **Dataset output**.
