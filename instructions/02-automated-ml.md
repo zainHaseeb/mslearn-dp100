@@ -52,7 +52,7 @@ Now that you have some compute resources that you can use to process data, you'l
         * **File format**: Delimited
         * **Delimiter**: Comma
         * **Encoding**: UTF-8
-        * **Column headers**: Use headers from first file
+        * **Column headers**: Only first file has headers
         * **Skip rows**: None
     * **Schema**:
         * Include all columns other than **Path**
@@ -115,7 +115,7 @@ After you've used automated machine learning to train some models, you can deplo
     - **Description**: Predict diabetes
     - **Compute type**: ACI
     - **Enable authentication**: Selected
-3. Wait for the deployment to start - this may take a few seconds. Then, on the **Model** tab, in the **Model summary** section, observe the **Deploy status** for the **auto-predict-diabetes** service, which should be **Running**. Wait for this status to change to **Successful**. You may need to select **&#8635; Refresh** periodically.
+3. Wait for the deployment to start - this may take a few seconds. Then, on the **Model** tab, in the **Model summary** section, observe the **Deploy status** for the **auto-predict-diabetes** service, which should be **Running**. Wait for this status to change to **Successful**. You may need to select **&#8635; Refresh** periodically.  **NOTE** This can take a while - be patient!
 4. In Azure Machine Learning studio, view the **Endpoints** page and select the **auto-predict-diabetes** real-time endpoint. Then select the **Consume** tab and note the following information there. You need this information to connect to your deployed service from a client application.
     - The REST endpoint for your service
     - the Primary Key for your service
