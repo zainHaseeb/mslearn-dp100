@@ -84,3 +84,5 @@ If you've finished exploring Azure Machine Learning for now, you should shut dow
 
 1. In Azure Machine Learning studio, on the **Compute** page, select your compute instance.
 2. Click **Stop** to stop your compute instance. When it has shut down, its status will change to **Stopped**.
+
+> **Note**: Stopping your compute ensures your subscription won't be charged for compute resources. You will however be charged a small amount for data storage as long as the Azure Machine Learning workspace exists in your subscription. If you have finished exploring Azure Machine Learning, you can delete the Azure Machine Learning workspace and associated resources. However, if you plan to complete any other labs in this series, you will need to repeat this lab to create the workspace and prepare the environment first.

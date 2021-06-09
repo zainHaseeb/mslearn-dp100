@@ -28,3 +28,5 @@ In this exercise, the code to evaluate models for fairness is provided in a note
 ## Clean-up
 
 If you're finished working with Azure Machine Learning for now, in Azure Machine Learning studio, on the **Compute** page, on the **Compute Instances** tab, select your compute instance and click **Stop** to shut it down. Otherwise, leave it running for the next lab.
+
+> **Note**: Stopping your compute ensures your subscription won't be charged for compute resources. You will however be charged a small amount for data storage as long as the Azure Machine Learning workspace exists in your subscription. If you have finished exploring Azure Machine Learning, you can delete the Azure Machine Learning workspace and associated resources. However, if you plan to complete any other labs in this series, you will need to repeat the *[Create an Azure Machine Learning Workspace](01-create-a-workspace.md)* exercise to create the workspace and prepare the environment first.
